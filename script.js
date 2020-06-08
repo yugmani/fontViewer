@@ -8,6 +8,7 @@ const h4El = document.querySelector("#h4");
 const pEl = document.querySelector("#p");
 const textareaEl = document.querySelector("#textarea");
 var fontContainer = document.querySelector(".container");
+var displayEl = document.querySelector(".displays");
 
 var displays = [ h1El, h2El, h3El, h4El, pEl];
 
@@ -21,7 +22,8 @@ clearEl.addEventListener("click", clearEvent);
 function fontChange(event){
     event.preventDefault();
     fontface = fontEl.value;
-    fontContainer.style.fontFamily = fontface;
+    // fontContainer.style.fontFamily = fontface;
+    displayEl.style.fontFamily = fontface;
 }
 
 function clearEvent(event){

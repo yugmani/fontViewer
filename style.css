@@ -1,3 +1,8 @@
+body html {
+    margin:0;
+    padding:0;
+}
+
 .container {
     margin:0 auto;
     width:60%;
@@ -24,8 +29,19 @@ button {
 }
 
 #textarea {
-    padding:5px;
+    padding:15px;
     outline:none;
     border:none;
     background-color:white;
+}
+
+#forum {
+    font-size:20px;
+    padding:10px;
+}
+
+#fonts {
+    border:none;
+    /* padding:5px; */
+    padding:10px;
 }
