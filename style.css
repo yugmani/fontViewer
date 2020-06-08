@@ -1,0 +1,31 @@
+.container {
+    margin:0 auto;
+    width:60%;
+    background-color:whitesmoke;
+    text-align:center;
+    padding:10px 0px;
+}
+
+button {
+    width:150px;
+    background-color:blue;
+    color:white;
+    margin:10px;
+    padding:5px;
+}
+
+#text {
+    margin-top:30px;
+}
+
+.displays >:nth-child(odd) {
+    background-color:lightgray;
+    padding:5px 0px;
+}
+
+#textarea {
+    padding:5px;
+    outline:none;
+    border:none;
+    background-color:white;
+}

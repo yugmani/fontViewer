@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Viewer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@100&family=Ubuntu:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>FONT STYLES</h1>
+        <form>
+        <label for="fonts">Select your Favorite Font:</label>
+        <select name="fonts" id="fonts">
+            <option value="sans-serif" >Sans-Serif</option>
+            <option value="ubuntu">Ubuntu</option>
+            <option value="lato" selected>Lato</option>
+            <option value="bebas neue">Bebas Neue</option>
+        </select>
+        <div id="text">
+            <!-- <label for ="user_text">Enter your Text:</label><br> -->
+            <textarea id="textarea" rows="1" cols="50" name="user_text" placeholder="Enter Your Text Here"></textarea>
+            <div>
+                <button id="clear">Clear</button>
+            </div>
+        </div>
+    </form>
+    <div class="displays">
+        <h1 id="h1">I am an h1</h1>
+        <h2 id="h2">I am an h2</h2>
+        <h3 id="h3">I am an h3</h3>
+        <h4 id="h4">I am an h4</h4>
+        <p id="p">I am a p</p>
+    </div>
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
